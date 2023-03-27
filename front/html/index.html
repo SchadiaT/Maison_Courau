@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Maison Courau</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Plateforme incroyable de e-commerce">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <header>
+      <div class="limitedWidthBlockContainer menu">
+        <div class="limitedWidthBlock">
+          <a href="./index.html">
+            <img class="logo" src="../images/logo.jpg" alt="Logo de l'entreprise">
+          </a>
+          <nav>
+            <div class="wrapper">
+              <input type="radio" name="slide" id="menu-btn">
+              <input type="radio" name="slide" id="cancel-btn">
+              <ul class="nav-links">
+                <label for="cancel-btn" class="btn cancel-btn"><i class="material-icons-sharp">close</i></label>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                  <a href="#" class="desktop-item">Dropdown Menu</a>
+                  <input type="checkbox" id="showDrop">
+                  <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                  <ul class="drop-menu">
+                    <li><a href="#">Drop menu 1</a></li>
+                    <li><a href="#">Drop menu 2</a></li>
+                    <li><a href="#">Drop menu 3</a></li>
+                    <li><a href="#">Drop menu 4</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="desktop-item">Mega menu</a>
+                  <input type="checkbox" id="showMega">
+                  <label for="showMega" class="mobile-item">Mega Menu</label>
+                  <div class="mega-box">
+                    <div class="content">
+                      <div class="row">
+                        <img src="../images/banniere.JPG" alt="">
+                      </div>
+                      <div class="row">
+                        <header>Women</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Bags</a></li>
+                          <li><a href="#">Clothes</a></li>
+                          <li><a href="#">Accessories</a></li>
+                          <li><a href="#">Shoes</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Men</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Bags</a></li>
+                          <li><a href="#">Clothes</a></li>
+                          <li><a href="#">Accessories</a></li>
+                          <li><a href="#">Shoes</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Home Decor</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Beddings</a></li>
+                          <li><a href="#">Decoration</a></li>
+                          <li><a href="#">Custom</a></li>
+                          <li><a href="#">Lamps</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="./cart.html">Panier</a></li>
+                <li><a href="./connection.html">Se connecter</a></li>
+              </ul>
+              <label for="menu-btn" class="btn menu-btn"><i class="material-icons-sharp">menu</i></label>
+            </div>
+          </nav>
+          <!--<nav>
+            <ul>
+              <li><a href="./index.html">Accueil</a>
+                <div class="sub-menu-1">
+                  <ul>
+                    <li><a href="#">Sacs</a></li>
+                    <li><a href="#">Home Decor</a></li>
+                    <li><a href="#">Haute Couture</a></li>
+                    <li><a href="#">Chaussure</a></li>
+                  </ul>
+                </div>
+              </li>
+              <a href="./cart.html"><li>Panier</li></a>
+              <a href="./connection.html"><li>Se connecter</li></a>
+            </ul>
+          </nav>
+          -->
+          <div class="right">
+            <div class="theme-toggler">
+              <span class="material-icons-sharp active">light_mode</span>
+              <span class="material-icons-sharp active">dark_mode</span>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img class="banniere" src="../images/banniere.jpg" alt="Baniere">
+    </header>
+   
+    <main class="limitedWidthBlockContainer">
+      <div class="limitedWidthBlock">
+        <div class="titles">
+          <h1>Nos produits</h1>
+          <h2>Une gamme d'articles exclusifs</h2>
+        </div>
+        <section class="items" id="items"> 
+        <!--<a href="./product.html?id=42">
+            <article>
+              <img src=".../product01.jpg" alt="Lorem ipsum dolor sit amet, Kanap name1">
+              <h3 class="productName">Bag name1</h3>
+              <p class="productDescription">Dis enim malesuada risus sapien gravida nulla nisl arcu. Dis enim malesuada risus sapien gravida nulla nisl arcu.</p>
+            </article>
+          </a> -->
+        </section>
+      </div>
+    </main>
+    
+    <footer>
+      <div class="limitedWidthBlockContainer footerMain">
+        <div class="limitedWidthBlock">
+          <div>
+            <img class="logo" src="../images/logo.jpg" alt="Logo de l'entreprise">
+          </div>
+          <div class="limitedWidthBlockContainer informations">
+            <div class="limitedWidthBlock">
+              <ul>
+                <li><img src="../images/icons/phone.svg" alt="logo de téléphone" class="informations__phone">01 23 45 67 89</li>
+                <li><img src="../images/icons/mail.svg" alt="logo d'une enveloppe" class="informations__mail">support@name.com</li>
+                <li><img src="../images/icons/adress.svg" alt="logo d'un point de géolocalisation" class="informations__address">01 23 45 67 89</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <p>10 quai de la charente <br>75019 Paris 19</p>
+          </div>
+          <div>
+            <p>Téléphone : 01 23 45 67 89</p>
+          </div>
+          <div>
+            <p>Email : lamaisoncourau@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="limitedWidthBlockContainer footerSecondary">
+        <div class="limitedWidthBlock">
+          <p>© Copyright 2022 - 2042 | Maison Courau by TS Webmaster | All Rights Reserved | Powered by <3</p>
+        </div>
+      </div>
+    </footer>
+ <!-- <script src="../js/script.js"> </script>-->
+ 
+ <script src="../js/accueil.js"></script>
+ 
+  </body>
+</html> 

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Maison Courau</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Plateforme incroyable de e-commerce">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/connection.css" rel="stylesheet" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <header>
+      <div class="limitedWidthBlockContainer menu">
+        <div class="limitedWidthBlock">
+          <a href="./index.html">
+            <img class="logo" src="../images/logo.jpg" alt="Logo de l'entreprise">
+          </a>
+          <nav>
+            <div class="wrapper">
+              <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                  <a href="#">Dropdown Menu</a>
+                  <ul class="drop-menu">
+                    <li><a href="#">Drop menu 1</a></li>
+                    <li><a href="#">Drop menu 2</a></li>
+                    <li><a href="#">Drop menu 3</a></li>
+                    <li><a href="#">Drop menu 4</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Mega menu</a>
+                  <div class="mega-box">
+                    <div class="content">
+                      <div class="row">
+                        <img src="../images/banniere.JPG" alt="">
+                      </div>
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Design Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Graphics</a></li>
+                          <li><a href="#">Vectors</a></li>
+                          <li><a href="#">Business cards</a></li>
+                          <li><a href="#">Custom logo</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="./cart.html">Panier</a></li>
+                <li><a href="./connection.html">Se connecter</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <img class="banniere" src="../images/banniere.jpg" alt="Baniere">
+    </header>
+   
+    <main class="limitedWidthBlockContainer">
+      <div class="limitedWidthBlock">
+        <div class="container">
+            <div class="title-text">
+               <div class="title login">
+                  Login Form
+               </div>
+               <div class="title signup">
+                  Signup Form
+               </div>
+            </div>
+            <div class="form-container">
+               <div class="slide-controls">
+                  <input type="radio" name="slide" id="login" checked>
+                  <input type="radio" name="slide" id="signup">
+                  <label for="login" class="slide login">Login</label>
+                  <label for="signup" class="slide signup">Signup</label>
+                  <div class="slider-tab"></div>
+               </div>
+               <div class="form-inner">
+                  <form action="#" class="login">
+                     <div class="field">
+                        <input type="text" placeholder="Email Address" required>
+                     </div>
+                     <div class="field">
+                        <input type="password" placeholder="Password" required>
+                     </div>
+                     <div class="pass-link">
+                        <a href="#">Forgot password?</a>
+                     </div>
+                     <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Login">
+                     </div>
+                     <div class="signup-link">
+                        Not a member? <a href="">Signup now</a>
+                     </div>
+                  </form>
+                  <form action="#" class="signup">
+                     <div class="field">
+                        <input type="text" placeholder="Email Address" required>
+                     </div>
+                     <div class="field">
+                        <input type="password" placeholder="Password" required>
+                     </div>
+                     <div class="field">
+                        <input type="password" placeholder="Confirm password" required>
+                     </div>
+                     <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Signup">
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         
+       <!-- <div class="logmod">
+            <div class="logmod__wrapper">
+              <span class="logmod__close">Close</span>
+              <div class="logmod__container">
+                <ul class="logmod__tabs">
+                  <li data-tabtar="lgm-2"><a href="#">Login</a></li>
+                  <li data-tabtar="lgm-1"><a href="#">Sign Up</a></li>
+                </ul>
+                <div class="logmod__tab-wrapper">
+                <div class="logmod__tab lgm-1">
+                  <div class="logmod__heading">
+                    <span class="logmod__heading-subtitle">Enter your personal details <strong>to create an acount</strong></span>
+                  </div>
+                  <div class="logmod__form">
+                    <form accept-charset="utf-8" action="#" class="simform">
+                      <div class="sminputs">
+                        <div class="input full">
+                          <label class="string optional" for="user-name">Email*</label>
+                          <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" />
+                        </div>
+                      </div>
+                      <div class="sminputs">
+                        <div class="input string optional">
+                          <label class="string optional" for="user-pw">Password *</label>
+                          <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="text" size="50" />
+                        </div>
+                        <div class="input string optional">
+                          <label class="string optional" for="user-pw-repeat">Repeat password *</label>
+                          <input class="string optional" maxlength="255" id="user-pw-repeat" placeholder="Repeat password" type="text" size="50" />
+                        </div>
+                      </div>
+                      <div class="simform__actions">
+                        <input class="sumbit" name="commit" type="sumbit" value="Create Account" />
+                        <span class="simform__actions-sidetext">By creating an account you agree to our <a class="special" href="#" target="_blank" role="link">Terms & Privacy</a></span>
+                      </div> 
+                    </form>
+                  </div> 
+                  <div class="logmod__alter">
+                    <div class="logmod__alter-container">
+                      <a href="#" class="connect facebook">
+                        <div class="connect__icon">
+                          <i class="fa fa-facebook"></i>
+                        </div>
+                        <div class="connect__context">
+                          <span>Create an account with <strong>Facebook</strong></span>
+                        </div>
+                      </a>
+                        
+                      <a href="#" class="connect googleplus">
+                        <div class="connect__icon">
+                          <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="connect__context">
+                          <span>Create an account with <strong>Google+</strong></span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="logmod__tab lgm-2">
+                  <div class="logmod__heading">
+                    <span class="logmod__heading-subtitle">Enter your email and password <strong>to sign in</strong></span>
+                  </div> 
+                  <div class="logmod__form">
+                    <form accept-charset="utf-8" action="#" class="simform">
+                      <div class="sminputs">
+                        <div class="input full">
+                          <label class="string optional" for="user-name">Email*</label>
+                          <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" />
+                        </div>
+                      </div>
+                      <div class="sminputs">
+                        <div class="input full">
+                          <label class="string optional" for="user-pw">Password *</label>
+                          <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" />
+                                                  <span class="hide-password">Show</span>
+                        </div>
+                      </div>
+                      <div class="simform__actions">
+                        <input class="sumbit" name="commit" type="sumbit" value="Log In" />
+                        <span class="simform__actions-sidetext"><a class="special" role="link" href="#">Forgot your password?<br>Click here</a></span>
+                      </div> 
+                    </form>
+                  </div> 
+                  <div class="logmod__alter">
+                    <div class="logmod__alter-container">
+                      <a href="#" class="connect facebook">
+                        <div class="connect__icon">
+                          <i class="fa fa-facebook"></i>
+                        </div>
+                        <div class="connect__context">
+                          <span>Sign in with <strong>Facebook</strong></span>
+                        </div>
+                      </a>
+                      <a href="#" class="connect googleplus">
+                        <div class="connect__icon">
+                          <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="connect__context">
+                          <span>Sign in with <strong>Google+</strong></span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+    </main>
+    
+    <footer>
+      <div class="limitedWidthBlockContainer footerMain">
+        <div class="limitedWidthBlock">
+          <div>
+            <img class="logo" src="../images/logo.jpg" alt="Logo de l'entreprise">
+          </div>
+          <div class="limitedWidthBlockContainer informations">
+            <div class="limitedWidthBlock">
+              <ul>
+                <li><img src="../images/icons/phone.svg" alt="logo de téléphone" class="informations__phone">01 23 45 67 89</li>
+                <li><img src="../images/icons/mail.svg" alt="logo d'une enveloppe" class="informations__mail">support@name.com</li>
+                <li><img src="../images/icons/adress.svg" alt="logo d'un point de géolocalisation" class="informations__address">01 23 45 67 89</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <p>10 quai de la charente <br>75019 Paris 19</p>
+          </div>
+          <div>
+            <p>Téléphone : 01 23 45 67 89</p>
+          </div>
+          <div>
+            <p>Email : lamaisoncourau@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="limitedWidthBlockContainer footerSecondary">
+        <div class="limitedWidthBlock">
+          <p>© Copyright 2022 - 2042 | Maison Courau by TS Webmaster | All Rights Reserved | Powered by <3</p>
+        </div>
+      </div>
+    </footer>
+
+ <script src="../js/connection.js"></script>
+ 
+  </body>
+</html> 
